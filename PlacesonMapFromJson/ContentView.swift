@@ -18,25 +18,21 @@ struct ContentView: View {
                 MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: place.lat, longitude: place.lon)) {
                     NavigationLink(destination: DetailView(place: place)) {
                         VStack {
-                            Image(systemName: "pin.fill")
+                            Image(systemName: "laptopcomputer")
                                 .padding(10)
                         }
                     }
                 }
                 
-            }.ignoresSafeArea()
+            }
+            .navigationBarTitle(Text("Coworking places"), displayMode: .large)
+            .background(Color("Background"))
+//            .background(LinearGradient(colors: [.yellow, .purple, .black],
+//                                       startPoint: .top,
+//                                       endPoint: .bottom))
+//            .scrollContentBackground(.hidden)
+//            .ignoresSafeArea()
         }
-        //            List {
-        //                ForEach(places) { place in
-        //                    NavigationLink(destination: DetailView(place: place)) {
-        //                        VStack {
-        //                            Text("\(place.name)")
-        //                                .padding(10)
-        //                        }
-        //                    }
-        //                }
-        //            }.navigationBarTitle("Coworking places")
-        //            .navigationBarTitleDisplayMode(.inline)
     }
 }
 
