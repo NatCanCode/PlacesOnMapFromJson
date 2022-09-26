@@ -11,7 +11,7 @@ import SwiftUI
 struct PlacesonMapFromJsonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PickerView()
         }
     }
 }

@@ -18,15 +18,14 @@ struct ContentView: View {
                 MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: place.lat, longitude: place.lon)) {
                     NavigationLink(destination: DetailView(place: place)) {
                         VStack {
-                            Image(systemName: "laptopcomputer")
+                            Image(systemName: "pin.fill")
                                 .padding(10)
                         }
                     }
                 }
-                
             }
-            .navigationBarTitle(Text("Coworking places"), displayMode: .large)
-            .background(Color("Background"))
+//            .navigationBarTitle(Text("Coworking places"), displayMode: .large)
+//            .background(Color("Background"))
 //            .background(LinearGradient(colors: [.yellow, .purple, .black],
 //                                       startPoint: .top,
 //                                       endPoint: .bottom))
