@@ -14,6 +14,9 @@
 		AC4EB13628E19DA700D378D4 /* PlacesonMapFromJsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EB13528E19DA700D378D4 /* PlacesonMapFromJsonTests.swift */; };
 		AC4EB14028E19DA700D378D4 /* PlacesonMapFromJsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EB13F28E19DA700D378D4 /* PlacesonMapFromJsonUITests.swift */; };
 		AC4EB14228E19DA700D378D4 /* PlacesonMapFromJsonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EB14128E19DA700D378D4 /* PlacesonMapFromJsonUITestsLaunchTests.swift */; };
+		AC4EB15128E19F2400D378D4 /* JsonMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EB15028E19F2400D378D4 /* JsonMananger.swift */; };
+		AC4EB15328E1AE4B00D378D4 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4EB15228E1AE4B00D378D4 /* places.json */; };
+		AC4EB15728E1AFA800D378D4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EB15628E1AFA800D378D4 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AC4EB13B28E19DA700D378D4 /* PlacesonMapFromJsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesonMapFromJsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4EB13F28E19DA700D378D4 /* PlacesonMapFromJsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesonMapFromJsonUITests.swift; sourceTree = "<group>"; };
 		AC4EB14128E19DA700D378D4 /* PlacesonMapFromJsonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesonMapFromJsonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC4EB15028E19F2400D378D4 /* JsonMananger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonMananger.swift; sourceTree = "<group>"; };
+		AC4EB15228E1AE4B00D378D4 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = places.json; path = ../../../places.json; sourceTree = "<group>"; };
+		AC4EB15628E1AFA800D378D4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 			children = (
 				AC4EB12428E19DA500D378D4 /* PlacesonMapFromJsonApp.swift */,
 				AC4EB12628E19DA500D378D4 /* ContentView.swift */,
+				AC4EB15628E1AFA800D378D4 /* DetailView.swift */,
+				AC4EB15028E19F2400D378D4 /* JsonMananger.swift */,
 				AC4EB12828E19DA600D378D4 /* Assets.xcassets */,
 				AC4EB12A28E19DA600D378D4 /* Preview Content */,
 			);
@@ -105,6 +113,7 @@
 		AC4EB12A28E19DA600D378D4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				AC4EB15228E1AE4B00D378D4 /* places.json */,
 				AC4EB12B28E19DA600D378D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4EB15328E1AE4B00D378D4 /* places.json in Resources */,
 				AC4EB12C28E19DA600D378D4 /* Preview Assets.xcassets in Resources */,
 				AC4EB12928E19DA600D378D4 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4EB15128E19F2400D378D4 /* JsonMananger.swift in Sources */,
+				AC4EB15728E1AFA800D378D4 /* DetailView.swift in Sources */,
 				AC4EB12728E19DA500D378D4 /* ContentView.swift in Sources */,
 				AC4EB12528E19DA500D378D4 /* PlacesonMapFromJsonApp.swift in Sources */,
 			);
